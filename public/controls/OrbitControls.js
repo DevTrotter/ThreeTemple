@@ -940,7 +940,7 @@ var OrbitControls = function ( object, domElement ) {
 		event.preventDefault();
 
 		switch ( state ) {
-
+			
 			case STATE.ROTATE:
 
 				if ( scope.enableRotate === false ) return;
